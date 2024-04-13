@@ -1,0 +1,424 @@
+body {
+    background-color: #fff;
+    font-family: "Arial Black";
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#grena{
+    width: 100%;
+    background: #6e182c;
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+#branco{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#branco #ffc{
+    position: fixed;
+    top: 2.4rem;
+    left: 13rem;
+    width: 30rem;
+}
+
+#branco #logo{
+    position: fixed;
+    top: 0.6rem;
+    left: 44rem;
+    z-index: 1;
+    width: 8rem;
+}
+
+#branco #ffc2{
+    position: fixed;
+    top: 2.4rem;
+    right: 13rem;
+    width: 30rem;
+}
+
+#verde {
+    width: 100%;
+    background: #01633d;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+}
+
+#verde ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2.2rem;
+    margin-left: 1.5rem;
+}
+
+#verde li {
+    padding: 0.5rem; 
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+#verde a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.8rem;
+}
+
+#verde a:hover {
+    background-color: #6e182c;
+    border-radius: 0.6rem;
+}
+
+#banner {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 13rem;
+}
+
+.banner-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.banner-images a {
+    margin: 0 0.5rem;
+    text-align: center; 
+    text-decoration: none;
+    color: #fff;
+    text-shadow: #6e182c 0.2rem 0.2rem;
+    background: #01633d;
+}
+
+.banner-images img {
+    width: 31rem; 
+    height: 25rem;
+    object-fit:cover; 
+}
+
+.banner-images h1 {
+    font-size: 1.5rem; 
+    margin-top: 0.5rem;
+}
+
+footer{
+    width: 100%;
+    margin-left: -0.5rem;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+#footer1{
+    width: 100%;
+    background: #6e182c;
+    padding: 0.5rem;
+}
+
+#footer2{
+    width: 100%;
+    background: #01633d;
+    padding: 0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #fff;
+        font-family: "Arial Black";
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    #grena{
+        padding: 0.5rem;
+        justify-content: center;
+    }
+
+    #branco #ffc,
+    #branco #logo,
+    #branco #ffc2 {
+        position: fixed;
+        width: 10%;
+        text-align: center;
+    }
+
+    #branco #logo {
+        top: -0.2rem;
+        left: 0;
+        width: 25%;
+        z-index: 1;
+        margin-right: 3rem;
+    }
+
+    #branco #ffc{
+        top: 3.2rem;
+        left: 4rem;
+        width: 85%;
+        z-index: 1;
+        margin-right: 3rem;
+    }
+
+    #branco #ffc2 {
+       display: none;      
+    }
+
+    #verde {
+        width: 100%;
+        background: #01633d;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0.1rem;
+    
+    }
+    
+    #verde ul {
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 0rem;
+        margin-left: -0.3rem;
+    }
+    
+    #verde li {
+        padding: 1rem 0 1rem 0; 
+        color: #fff;
+        font-size: 0.1rem;
+    }
+    
+    #verde a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 0.8888rem;
+        padding: 0.8rem;
+        white-space: nowrap;
+    }
+    
+    #verde a:hover {
+        background-color: #6e182c;
+        border-radius: 0.6rem;
+    }
+
+    #banner {
+        width: 100%;
+        overflow:auto;
+        margin-top: 11rem;
+    }
+    
+    .banner-images {
+        display: flex;
+        justify-content: start;
+        flex-wrap: nowrap;
+    }
+    
+    .banner-images a {
+        margin: 0 0.5rem;
+        text-align: center;
+        text-decoration:underline;
+        color: #fff;
+        text-shadow: #6e182c 0.2rem 0.2rem;
+        background: #01633d;
+    }
+    
+    .banner-images img {
+        width: 31rem; 
+        height: 25rem;
+        object-fit:cover; 
+    }
+    
+    .banner-images h1 {
+        font-size: 1.5rem; 
+        margin-top: 0.5rem;
+    }
+    
+    footer{
+        width: 100%;
+        margin-left: -0.5rem;
+        font-size: 0.52rem;
+        color: #fff;
+        text-align: center;
+    }
+    
+    #footer1{
+        width: 100%;
+        background: #6e182c;
+        padding: 0.5rem;
+    }
+    
+    #footer2{
+        width: 100%;
+        background: #01633d;
+        padding: 0.5rem;
+        margin-bottom: -0.5rem;
+    }
+}
+
+/* Desktops padrão */
+@media only screen and (min-width: 1267px) {
+    body {
+        background-color: #fff;
+        font-family: "Arial Black";
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    #grena{
+        width: 100%;
+        background: #6e182c;
+        display: flex;
+        justify-content: start;
+        color: #fff;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    
+    #branco{
+        width: 100%;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    #branco #ffc{
+        position: fixed;
+        top: 2.4rem;
+        left: 13rem;
+        width: 30rem;
+    }
+    
+    #branco #logo{
+        position: fixed;
+        top: 0.6rem;
+        left: 44rem;
+        z-index: 1;
+        width: 8rem;
+    }
+    
+    #branco #ffc2{
+        position: fixed;
+        top: 2.4rem;
+        right: 12rem;
+        width: 30rem;
+    }
+    
+    #verde {
+        width: 100%;
+        background: #01633d;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+    
+    }
+    
+    #verde ul {
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 2.2rem;
+        margin-left: 1.5rem;
+    }
+    
+    #verde li {
+        padding: 0.5rem; 
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    
+    #verde a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.1rem;
+        padding: 0.8rem;
+    }
+    
+    #verde a:hover {
+        background-color: #6e182c;
+        border-radius: 0.6rem;
+    }
+    
+    #banner {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 13rem;
+    }
+    
+    .banner-images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    
+    .banner-images a {
+        margin: 0 0.5rem;
+        text-align: center; 
+        text-decoration: none;
+        color: #fff;
+        text-shadow: #6e182c 0.2rem 0.2rem;
+        background: #01633d;
+    }
+    
+    .banner-images img {
+        width: 31rem; 
+        height: 25rem;
+        object-fit:cover; 
+    }
+    
+    .banner-images h1 {
+        font-size: 1.5rem; 
+        margin-top: 0.5rem;
+    }
+    
+    footer{
+        width: 100%;
+        margin-left: -0.5rem;
+        font-size: 0.8rem;
+        color: #fff;
+    }
+    
+    #footer1{
+        width: 100%;
+        background: #6e182c;
+        padding: 0.5rem;
+    }
+    
+    #footer2{
+        width: 100%;
+        background: #01633d;
+        padding: 0.5rem;
+        margin-bottom: -0.5rem;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLU NETWORK - AO VIVO</title>
+    <link rel="icon" href="./src/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./src/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="aovivo.css">
+</head>
+<body>
+    <header>
+        <div id="grena">FLU NETWORK</div>
+            <div id="branco">
+                <img id="ffc" src="./src/fluminensefc.png" alt="">
+                    <img id="logo" src="./src/logo.png" alt="">
+                        <img id="ffc2" src="./src/fluminensefc.png" alt="">
+                            </div>
+                                <div id="verde"> <ul>
+                                    <li><a href="index.html">INÍCIO</a></li>
+                                        <li><a href="aovivo.html">AO-VIVO</a></li>
+                                            <li><a href="reprise.html">REPRISE</a></li>
+                                                <li><a href="especiais.html">ESPECIAIS</a></li>
+                                                </ul>
+                                                    </div>
+                                                        </header>
+    <main>
+
+     <!-- ALERT -->
+        <div id="myModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                    <p>PARA ASSISTIR A TRANSMISSÃO AO-VIVO, ESCOLHA UMA OPÇÃO ACIMA.</p>
+                        <img src="./src/faz-o-L.png" alt="FAZ O L">
+                            <p>BOTÃO &#174;REFRESH PARA ATULIZAR.</p>
+                                </div>
+                                    </div>
+
+        <ul id="canais">
+            <li><a href="https://v2.sportsonline.si/channels/bra/br1.php" onclick="changeChannel(event)">OPÇÃO 1</a></li>
+            <li><a href="https://v2.sportsonline.si/channels/bra/br3.php" onclick="changeChannel(event)">OPÇÃO 2</a></li>
+            <li><a href="https://v2.sportsonline.si/channels/hd/hd2.php" onclick="changeChannel(event)">OPÇÃO 3</a></li>
+            <li><a href="aovivo.html">&#174;REFRESH</a></li>
+        </ul>
+        
+        <br><br>
+        
+        <iframe id="player" src="" width="100%" height="100%" sandbox="allow-top-navigation allow-same-origin allow-scripts allow-forms" allow='encrypted-media' frameborder='0%' scrolling='no' allowfullscreen="true"></iframe>
+    
+    </main>
+
+    <footer>
+        <p id="footer1">PARA ATUALIZAR CLIQUE EM &#174;REFRESH.</p>
+            <P id="footer2"></P>
+                </footer>
+
+<script src="aovivo.js"></script>
+</body>
+</html>
